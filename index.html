@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroForge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>NeuroForge</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Work</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header id="home">
+  <div class="hero">
+
+    <div class="hero-text">
+      <h1>We Build Websites That Grow Your Business</h1>
+      <p>Modern, fast, and high-converting websites for startups and businesses.</p>
+      <button onclick="scrollToContact()">Get Started</button>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/Screenshot1.png" alt="Preview">
+    </div>
+
+  </div>
+</header>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>Our Services</h2>
+
+  <div class="container">
+    <div class="card">
+      <h3>Web Design</h3>
+      <p>Clean and modern UI for your business.</p>
+    </div>
+
+    <div class="card">
+      <h3>Development</h3>
+      <p>Fast and responsive websites.</p>
+    </div>
+
+    <div class="card">
+      <h3>Bug Fixing</h3>
+      <p>Fix issues and improve performance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <h2>Why Choose NeuroForge</h2>
+
+  <div class="container">
+    <div class="card">Fast Delivery</div>
+    <div class="card">Modern Design</div>
+    <div class="card">Affordable Pricing</div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <h2>Our Work</h2>
+
+  <div class="container">
+
+    <!-- PROJECT 1 -->
+    <div class="card project">
+      <img src="images/Screenshot1.png" alt="Gym Website">
+
+      <h3>Fitness Gym Website</h3>
+      <p>Modern responsive website for a fitness brand.</p>
+
+      <div class="project-links">
+        <a href="https://neuroforgeweb.netlify.app" target="_blank">Live</a>
+        <a href="https://github.com/khubaibrazi/fitlife-gym.git" target="_blank">Code</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="card project">
+      <img src="images/business.png" alt="Business Site">
+
+      <h3>Business Landing Page</h3>
+      <p>Clean landing page for startup growth.</p>
+
+      <div class="project-links">
+        <a href="#">Live</a>
+        <a href="#">Code</a>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="card project">
+      <img src="images/portfolio.png" alt="Portfolio">
+
+      <h3>Personal Portfolio</h3>
+      <p>Minimal and modern portfolio design.</p>
+
+      <div class="project-links">
+        <a href="#">Live</a>
+        <a href="#">Code</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <h2>Pricing</h2>
+
+  <div class="container">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>Single Page Website</p>
+      <h4>$50</h4>
+    </div>
+
+    <div class="card">
+      <h3>Standard</h3>
+      <p>Business Website</p>
+      <h4>$100</h4>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <p>Full Custom Website</p>
+      <h4>$200</h4>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="error"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 NeuroForge</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
