@@ -1,100 +1,50 @@
-# NeuroForge — SaaS Agency Website
+# NeuroForge — Web Agency Portfolio
 
-A modern, high-converting agency website built to showcase web development services and real client-ready projects.
+A responsive frontend website created to present web-development services, pricing, and portfolio work.
 
 ## Live Website
 
 https://neuroforgeportfolio.netlify.app/
 
----
+## Implemented Features
 
-## What This Project Shows
+- Responsive landing-page layout
+- Hero, services, portfolio, pricing, and contact sections
+- Project previews and external project links
+- Client-side contact-form validation
+- Mobile and desktop layouts
 
-This project demonstrates my ability to build:
+> This is a static frontend project. It does not include user accounts, subscriptions, a database, or other SaaS backend functionality.
 
-* Clean and modern UI/UX
-* Responsive websites (mobile + desktop)
-* SaaS-style landing pages
-* Real-world business websites
+## Technologies
 
----
+- HTML5
+- CSS3 with Flexbox
+- JavaScript
 
-## Features
+## Featured Project
 
-* Split hero (SaaS-style layout)
-* Services section with clear offerings
-* Portfolio with live project previews
-* Pricing section for client clarity
-* Contact form with validation
-* Fully responsive design
+### FitLife Gym Website
 
----
+Responsive frontend concept for a gym or fitness business.
 
-## Tech Stack
+- **Live demo:** https://neuroforgeweb.netlify.app
+- **Source code:** https://github.com/khubaibrazi/fitlife-gym
 
-* HTML5
-* CSS3 (Flexbox)
-* JavaScript
+## Run Locally
 
----
+```bash
+git clone https://github.com/khubaibrazi/neuroforge-portfolio.git
+cd neuroforge-portfolio
+```
 
-## Portfolio Highlights
-
-### Fitness Gym Website
-
-* Responsive fitness landing page
-* Clean layout and modern styling
-* Focus on user engagement
-
-**Live:** https://neuroforgeweb.netlify.app
-**Code:** https://github.com/khubaibrazi/fitlife-gym.git
-
----
-
-## Why This Matters
-
-This project is built with a real goal:
-
-> To attract clients and demonstrate the ability to deliver professional websites.
-
----
-
-## Available for Work
-
-I’m currently available for freelance projects.
-
-I can help you with:
-
-* Business websites
-* Landing pages
-* Portfolio websites
-* UI improvements
-
----
+Open `index.html` in a browser.
 
 ## Contact
 
-If you’re interested in working together:
-
-* GitHub: https://github.com/khubaibrazi
-* Email: neuroforge4@gmail.com
-
----
-
-## Project Setup
-
-```id="9y7zq2"
-git clone https://github.com/khubaibrazi/your-repo.git
-cd your-repo
-open index.html
-```
-
----
+- GitHub: https://github.com/khubaibrazi
+- Email: neuroforge4@gmail.com
 
 ## Author
 
 Khubaib Razi
-
----
-
-This project is part of my journey to building real-world, client-ready web solutions.
