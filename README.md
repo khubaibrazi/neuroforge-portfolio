@@ -1,35 +1,44 @@
 # NeuroForge — Web Agency Portfolio
 
-A responsive frontend website created to present web-development services, pricing, and portfolio work.
+A responsive web-agency portfolio created to present development services, project work, pricing, and contact information through a complete marketing-style website.
 
 ## Live Website
 
 https://neuroforgeportfolio.netlify.app/
 
+## Overview
+
+NeuroForge explores how a small digital agency can present its services and work through a clear, responsive interface. The project combines service positioning, portfolio presentation, pricing, and contact flows in one static frontend experience.
+
 ## Implemented Features
 
 - Responsive landing-page layout
-- Hero, services, portfolio, pricing, and contact sections
-- Project previews and external project links
-- Client-side contact-form validation
-- Mobile and desktop layouts
+- Hero section
+- Services presentation
+- Portfolio showcase
+- Pricing section
+- External project links
+- Contact section
+- Client-side form validation
+- Desktop and mobile layouts
 
-> This is a static frontend project. It does not include user accounts, subscriptions, a database, or other SaaS backend functionality.
+> This is a static frontend project. It does not include user accounts, subscriptions, a database, or SaaS backend functionality.
 
-## Technologies
+## Technology
 
 - HTML5
-- CSS3 with Flexbox
+- CSS3
+- Flexbox
 - JavaScript
 
-## Featured Project
+## Featured Work
 
-### FitLife Gym Website
+### FitLife Gym
 
-Responsive frontend concept for a gym or fitness business.
+A responsive frontend concept for a gym and fitness business.
 
-- **Live demo:** https://neuroforgeweb.netlify.app
-- **Source code:** https://github.com/khubaibrazi/fitlife-gym
+- Live demo: https://neuroforgeweb.netlify.app
+- Source code: https://github.com/khubaibrazi/fitlife-gym
 
 ## Run Locally
 
@@ -38,13 +47,18 @@ git clone https://github.com/khubaibrazi/neuroforge-portfolio.git
 cd neuroforge-portfolio
 ```
 
-Open `index.html` in a browser.
+Open `index.html` in your browser.
 
-## Contact
+## What This Project Demonstrates
 
-- GitHub: https://github.com/khubaibrazi
-- Email: neuroforge4@gmail.com
+- Responsive web design
+- Multi-section landing-page structure
+- Portfolio and service presentation
+- Frontend interaction with vanilla JavaScript
+- Reusable layout and styling patterns
 
 ## Author
 
-Khubaib Razi
+**Khubaib Razi**
+
+- GitHub: https://github.com/khubaibrazi
